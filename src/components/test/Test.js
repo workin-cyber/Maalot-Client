@@ -2,7 +2,7 @@ import StartButton from "../common/ButtonStart"
 import Movies from "../common/Movies"
 import PopUp from "../common/PopUp"
 import styles from "./styles.css"
-// import dv from "../common/Movies/a.mov"
+import dv from "../common/Movies/a.mov"
 import ConvergesExercise from "../../pages-order/trainFocus/ConvergesExercise"
 import ResultSummary from "../../pages-order/trainFocus/ResultSummary"
 import DivCompicated from "../common/DivCompicated"
@@ -13,8 +13,8 @@ function Test() {
         {/* <ConvergesExercise /> */}
         {/* <ResultSummary /> */}
         {/* <PopUp question="do you" /> */}
-        {/* <Movies /> */}
-        <StartFooter />
+        <Movies video={dv} />
+        {/* <StartFooter /> */}
     </>
 }
 
