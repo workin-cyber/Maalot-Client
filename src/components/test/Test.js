@@ -6,13 +6,15 @@ import styles from "./styles.css"
 import ConvergesExercise from "../../pages-order/trainFocus/ConvergesExercise"
 import ResultSummary from "../../pages-order/trainFocus/ResultSummary"
 import DivCompicated from "../common/DivCompicated"
+import StartFooter from "../common/StartFooter"
 
 function Test() {
     return <>
         {/* <ConvergesExercise /> */}
         {/* <ResultSummary /> */}
         {/* <PopUp question="do you" /> */}
-        <Movies />
+        {/* <Movies /> */}
+        <StartFooter />
     </>
 }
 
