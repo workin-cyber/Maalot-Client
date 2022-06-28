@@ -1,0 +1,21 @@
+.allBars {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 40px;
+  margin-top: 60px;
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+}
+
+.bar {
+  width: 4px;
+  background-color: #55575a;
+  border-radius: 50px;
+}
+
+.notUse {
+  background-color: #f39c12;
+}

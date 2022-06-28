@@ -6,8 +6,6 @@
     padding: 6px;
     max-width: 328px;
     z-index: 1;
-    margin-top: 25px;
-
     height: 80px;
 }
 
@@ -18,8 +16,6 @@
     left: 15px;
     background-color: white;
     font-size: 12px;
-    text-transform: capitalize;
-
 }
 
 .textAreaInput {

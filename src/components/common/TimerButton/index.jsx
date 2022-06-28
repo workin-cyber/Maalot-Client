@@ -7,13 +7,13 @@ import { BsStopFill } from "react-icons/bs";
 import { useState } from "react";
 
 // Creator : Team 4 - Amichai
-function TimerButton({ state, fullStop,changeMoveTime,changeLPM}) {
+function TimerButton({ state, fullStop, changeMoveTime }) {
   const [playPause, setPlayPause] = useState(true);
 
-  const changeButton = ()=> { 
-    setPlayPause(!playPause)
-  changeMoveTime()
-  }
+  const changeButton = () => {
+    setPlayPause(!playPause);
+    changeMoveTime();
+  };
   return (
     <>
       {state === "+" ? (
@@ -35,7 +35,7 @@ function TimerButton({ state, fullStop,changeMoveTime,changeLPM}) {
         >
           {playPause ? (
             <BiPlay size={30} className={styles.playIcon} />
-          ) : fullStop === "p" ? (
+          ) : fullStop ? (
             <IoIosPause className={styles.pauseIcon} size={20} />
           ) : (
             <BsStopFill size={25} className={styles.stopIcon} />

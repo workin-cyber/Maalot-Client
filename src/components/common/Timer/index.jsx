@@ -4,20 +4,16 @@ import { useState } from "react";
 import { CountdownCircleTimer } from "react-countdown-circle-timer";
 import SpeedLimit from "../SpeedLimit";
 import TimerButton from "../TimerButton/index";
+import Progressbar from "../Progressbar";
 
 // Creator : Team 4 - yaakov goldman
 
-function Timer({ state, fullStop }) {
+function Timer({ clockTime, setSeconds }) {
   const [timeMove, setTimeMove] = useState(true);
-//   const [numberLPM, setNumberLPM] = useState(10);
+  // const [corrent, setCorrent] = (0);
 
-// function changeLPM(plusOrMinus){
-//   (plusOrMinus==="+")? setNumberLPM(numberLPM+2)
-//   :setNumberLPM(numberLPM-2)
-// }
-
-  function changeMoveTime(){
-    setTimeMove(!timeMove)
+  function changeMoveTime() {
+    setTimeMove(!timeMove);
   }
   function printTime(time) {
     const minute = Math.floor(time / 60),
@@ -31,33 +27,35 @@ function Timer({ state, fullStop }) {
   }
 
   return (
-    <div className={styles.main}>
-      <TimerButton  state="+" />
-      <div className={styles.watch}>
-        <CountdownCircleTimer
-          isPlaying={timeMove}
-          duration={180}
-          colors={"purple"}
-          rotation={"counterclockwise"}
-          strokeLinecap={"square"}
-          size={220}
-        >
-          {({ remainingTime }) => {
-            return (
-              <div className={styles.insideTimer}>
-                {state !== "+" && state !== "-" ? (
-                  <h2>{printTime(remainingTime)}</h2>
-                ) : (
-                  <SpeedLimit numberLPM={10} />
-                )}
-                <TimerButton fullStop={fullStop} changeMoveTime={changeMoveTime} />
-              </div>
-            );
-          }}
-        </CountdownCircleTimer>
-      </div>
-      <TimerButton state="-"  />
-    </div>
+    <>
+      {/* <div className={styles.watch}> */}
+      <CountdownCircleTimer
+        isPlaying={timeMove}
+        duration={180}
+        colors={"purple"}
+        rotation={"counterclockwise"}
+        strokeLinecap={"square"}
+        size={220}
+      >
+        {({ remainingTime }) => {
+          setSeconds(remainingTime);
+          return (
+            <div className={styles.insideTimer}>
+              {clockTime ? (
+                <h2 className={styles.numTimer}>{printTime(remainingTime)}</h2>
+              ) : (
+                <SpeedLimit numberLPM={10} />
+              )}
+              <TimerButton
+                fullStop={clockTime}
+                changeMoveTime={changeMoveTime}
+              />
+            </div>
+          );
+        }}
+      </CountdownCircleTimer>
+      {/* </div> */}
+    </>
   );
 }
 

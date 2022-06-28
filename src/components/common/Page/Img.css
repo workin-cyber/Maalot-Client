@@ -1,0 +1,17 @@
+.img{
+    position: absolute;
+width: 382px;
+height: 598px;
+left: 16px;
+top: 190px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 26px;
+display: flex;
+align-items: center;
+
+color: #55575A;
+}

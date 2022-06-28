@@ -1,6 +1,6 @@
 /* כפתור צג (מד) */
 .screen{
-    position: absolute;
+    /* position: absolute; */
 font-size: 10px;
 box-sizing: border-box;
 display: flex;
@@ -20,6 +20,7 @@ border-radius: 20px;
 flex: none;
 order: 0;
 flex-grow: 0;
+margin-top: 20px;
 }
 .info{
     font-size: 15px; 

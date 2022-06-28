@@ -7,19 +7,22 @@
   border-radius: 50%;
   box-shadow: 2px 2px 0px #d35400;
   margin: 19px;
-  background: #feefec
+  /* background: #feefec;
+  top: 64px;
+  left: -5%; */
 }
 
 .playButton {
   border-radius: 50%;
   background: #f39c12;
-  top: 64px;
-  left: -5%;
+  position: relative;
+  /* top: 64px;
+  left: -5%; */
 }
 
 .pauseButton {
-  top: 64px;
-  left: -5%;
+  /* top: 64px;
+  left: -5%; */
 }
 .playIcon {
   position: absolute;
@@ -58,4 +61,8 @@
   right: 32.5%;
   top: 17%;
   bottom: 30%;
+}
+
+
+.numTimer{
 }

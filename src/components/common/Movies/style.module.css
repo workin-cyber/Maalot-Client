@@ -1,28 +1,26 @@
+.back {
+  width: 383px;
+  height: 244px;
+  left: 6.9px;
+  top: 125px;
 
-
-.back{
-    width: 383px;
-height: 244px;
-left: 6.9px;
-top: 125px;
-
-background: #F39C12;
-border: 1.5px solid #252525;
-border-radius: 40px;
+  background: #f39c12;
+  border: 1.5px solid #252525;
+  border-radius: 40px;
 }
 
-.internal{
-    width: 383px;
-height: 244px;
-left: 16px;
-top: 110px;
+.internal {
+  width: 383px;
+  height: 244px;
+  left: 16px;
+  top: 110px;
 
-border: 1.5px solid #252525;
-border-radius: 40px;
+  border: 1.5px solid #252525;
+  border-radius: 40px;
 }
 
-.video{
-object-fit: cover;
+.video {
+  object-fit: cover;
 }
 .played{
     cursor: pointer;
@@ -30,7 +28,7 @@ object-fit: cover;
 }
 
 .play{
-    box-sizing: border-box;
+box-sizing: border-box;
 border-radius: 50%;
 position: absolute;
 bottom: 100px;

@@ -1,0 +1,104 @@
+.buttonStyle{
+    border: 1.5px solid #252525;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 30px;
+    gap: 8px;
+    width: 110px;
+    margin: 7px;
+    height: 64px;
+    box-shadow: 2px 2px 0px #D35400;
+    border-radius: 10px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    box-sizing: border-box;
+    background: #FFFFFF;
+}
+
+.active {
+    box-sizing: border-box;
+    background: #F39C12;
+}
+
+.notActive {
+    box-sizing: border-box;
+    background: #FFFFFF;
+    
+}
+.activeButton{
+    color: #FFFFFF;
+}
+.notActiveButton{
+    color: #7D56A5;
+}
+.buttonText{
+    width: 58px;
+    height: 43px;
+    gap: 2px;
+    margin-right: 3px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 7px;
+}
+.textDiv {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.Dashboard {
+    display: flex;
+    gap: 15px;
+}
+
+.type {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.data {
+    font-size: 15px;
+}
+
+.number {
+    width: 58px;
+    height: 43px;
+    gap: 2px;
+    margin-right: 3px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #7D56A5;
+}
+
+.SelectButton{
+    display: flex;
+justify-content: center;
+
+gap: 8px;
+padding: 1px;
+position: absolute;
+width: 92px;
+height: 30px;
+left: 265px;
+top: 100.05px;
+font-size: 10px;
+background: #FFFFFF;
+border: 1px solid #252525;
+/* 1 */
+
+box-shadow: 2px 2px 0px #D35400;
+border-radius: 4px;
+}

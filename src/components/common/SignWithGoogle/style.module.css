@@ -1,6 +1,6 @@
 .Beackground {
   box-sizing: border-box;
-  position: absolute;
+  position: sticky;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,6 +9,7 @@
 
   margin-bottom: 0px;
   width: 100%;
+  max-width: 100%;
   bottom: 0px;
   background: #7d56a5;
   border: 1.5px solid #000000;

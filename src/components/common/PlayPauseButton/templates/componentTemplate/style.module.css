@@ -1,0 +1,60 @@
+.allButton {
+  box-sizing: border-box;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 0px;
+  top: 0px;
+  border: 1.5px solid #252525;
+  border-radius: 50%;
+  box-shadow: 2px 2px 0px #d35400;
+}
+
+.playButton {
+  border-radius: 50%;
+  background: #f39c12;
+}
+
+.pauseButton {
+  top: 0px;
+  background: #feefec;
+}
+.playIcon {
+  position: absolute;
+  left: 16%;
+  right: 32.5%;
+  top: 10%;
+  bottom: 30%;
+  color: #ffffff;
+  font-size: 30px;
+}
+.pauseIcon {
+  position: absolute;
+  left: 24%;
+  top: 23%;
+  font-size: 50px;
+  color: #252525;
+}
+.plusIcon {
+  position: absolute;
+  left: 31%;
+  right: 32.5%;
+  top: 30%;
+  bottom: 30%;
+}
+.minusIcon {
+  position: absolute;
+  left: 31%;
+  right: 32.5%;
+  top: 30%;
+  bottom: 30%;
+}
+
+
+.stopIcon{
+    position: absolute;
+    left: 17%;
+    right: 32.5%;
+    top: 17%;
+    bottom: 30%;
+}

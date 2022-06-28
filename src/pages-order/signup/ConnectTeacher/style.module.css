@@ -1,0 +1,23 @@
+.div {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 50vh;
+    max-width: 100%;
+}
+
+.all form {
+    min-height: 50vh;
+    position: relative;
+}
+
+.button {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10px;
+    margin-top: auto;
+    max-width: 100%;
+
+}

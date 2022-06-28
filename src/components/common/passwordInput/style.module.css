@@ -6,8 +6,7 @@
     padding: 6px;
     max-width: 328px;
     z-index: 1;
-    height: 42px;
-    margin-top: 25px;
+    height: 40px;
 }
 
 .inputArea {
@@ -23,7 +22,6 @@
 }
 
 .labelStyle {
-    text-transform: capitalize;
     font-style: italic;
     position: absolute;
     top: -10px;

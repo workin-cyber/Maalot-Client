@@ -1,36 +1,43 @@
 .Button{
-    width: 383px;
+    width: 330px;
     height: 48px;
     background-color: #F39C12;
     box-sizing: border-box;
     border: 2px solid #252525;
     box-shadow: 2px 2px 0px #D35400;
     border-radius: 80px;
-    padding:  16px 33px;
+    padding: 16px 33px;
     max-width: 100%;
     cursor: pointer;
     display: flex;
     justify-content: center;
+    margin: auto;
+    margin-top: 15px ;
 }
-.text{
+
+.text {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 16px;
-    text-align: center;  
-    color: #FFFFFF;  
+    text-align: center;
+    color: #FFFFFF;
 }
-a{
+
+a {
     text-decoration: none;
 
 }
-.White{
+
+.White {
     background-color: #FFFFFF;
 }
-.White .text{
+
+.White .text {
     color: #252525;
 }
-.small{
+
+.small {
     width: 140px;
 }

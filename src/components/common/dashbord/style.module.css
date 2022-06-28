@@ -1,0 +1,39 @@
+.backBord {
+    /* box-sizing: border-box; */
+    z-index: 2;
+    transform: rotate(-2.1deg);
+    position: relative;
+    width: 382px;
+    height: 338px;
+    /* left: 16px; */
+    /* top: 112.05px; */
+    display: flex;
+    background: #FEEFEC;
+    border: 1.5px solid #252525;
+    border-radius: 20px;
+}
+
+.chart {
+    position: absolute;
+    width: 350px;
+    height: 400px;
+    left: 10px;
+    top: 100px;
+    margin-top: 50px;
+}
+
+.purple {
+    box-sizing: border-box;
+    z-index: 1;
+    /* position: absolute; */
+    width: 382px;
+    height: 338px;
+    left: 22.48px;
+    top: 105px;
+    margin-left: 200px;
+    margin-top: 100px;
+    background: #7D56A5;
+    border: 1.5px solid #252525;
+    border-radius: 20px;
+    transform: rotate(2.2deg);
+}
