@@ -1,0 +1,30 @@
+.mainDiv{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.linkStyle{
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: underline;
+    text-transform: capitalize;
+    color: rgb(99, 0, 191);
+}
+.buttonDiv{
+    margin-top:20px;
+}
+.linkDiv{
+    margin: 20px;
+}
+
+
+
+
+.frontDiv{
+    padding: 30px;
+  
+    background-color: white;
+
+}

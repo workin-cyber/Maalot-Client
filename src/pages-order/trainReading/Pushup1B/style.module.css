@@ -1,0 +1,10 @@
+
+.timer{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top: 34vh;
+        margin: auto;
+        width: 100%;
+    }
+

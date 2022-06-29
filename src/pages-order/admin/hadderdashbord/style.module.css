@@ -1,0 +1,51 @@
+.divHader{
+    display: flex;
+    width: 1270px;
+    height: 71px;
+    background-color: #FFFFFF;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+    margin-left: 248px;
+
+}
+.divNamepage{
+    width: 30%;
+    padding-left: 25px;
+}
+.spanTxt{
+font-size: 20px;    
+}
+
+.buttonBell{
+    font-size: 24px;
+    background-color: #FFFFFF;
+    border: none;
+    color:#55575A;
+}
+.buttonBell:hover{
+    cursor: pointer;
+}
+.buttonImg{
+    font-size: 44.5px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    border: none;
+    color:#55575A;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.buttonImg:hover{
+    cursor: pointer;
+}
+
+.divNavImg{
+    display: flex;
+    width: 10%;
+    justify-content: space-around;
+    align-items: center;
+}

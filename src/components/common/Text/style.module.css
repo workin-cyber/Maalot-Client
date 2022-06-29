@@ -1,0 +1,31 @@
+.text {
+  width: 400;
+  position: absolute;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  /* display: flex;
+  align-items: center; */
+  color: #55575a;
+  margin: 16px 7px 15px 7px;
+}
+
+.InnerTitle {
+  padding-left: 0%;
+  text-align: center;
+  width: 192px;
+  height: 25px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  color: #252525;
+  flex: none;
+  border: 0;
+  flex-grow: 0;
+  background-color: none;
+}

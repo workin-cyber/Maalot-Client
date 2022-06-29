@@ -1,0 +1,45 @@
+.selectInput{
+    font-size: 20px;
+     width: 310px;
+     border: none;
+     border-radius: 10px;
+     /* font-size: 15px; */
+     font-size: 18px;
+     padding: 10px;
+     position: absolute;
+     top: 6px;
+    }
+    
+    .selectInput:focus{
+        border: none;
+        outline: none;
+    }
+    .labelStyle{
+        text-transform: capitalize;
+        font-style: italic;
+        font-size: 12px;
+        position: absolute;
+        top: -10px;
+        left: 15px;
+       
+        
+        background-color: white;
+    }
+    .inputDiv{
+        margin: auto;
+        margin-top: 25px;
+        border-radius:12px ;
+        padding: 10px;
+        box-sizing: border-box;
+        z-index:1 ;
+        height: 50px;
+        border: 1px solid grey;
+    
+         position: relative;
+         width: 328px;
+    }
+    .optionStyle{
+        
+        padding: 20px;
+        
+    }

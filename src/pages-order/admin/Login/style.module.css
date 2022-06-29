@@ -1,0 +1,36 @@
+.adminLogInDiv {
+    width: 700px;
+    padding: 90px;
+}
+
+.buttonDiv{
+    margin-top: 40px;
+    margin-left: 7px;
+}
+.forgatPassword{
+    color: grey;
+}
+.linkDiv{
+    text-decoration: underline;
+    color: grey;
+    margin-top: 10px;
+    position: absolute;
+    right: 10px;
+    font-size: 12px;
+}
+.title{
+    margin-bottom: 30px;
+}
+.mainDivLogIn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.frontDiv {
+    height: 270px;
+    width: 400px;
+  
+    background-color: white;
+}

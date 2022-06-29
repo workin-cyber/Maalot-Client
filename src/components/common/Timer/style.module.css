@@ -1,0 +1,22 @@
+/* .main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+.insideTimer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* .styles.watch {
+  position: relative;
+} */
+
+.numTimer{
+  margin-top: 8px;
+  margin-bottom: 8px;
+}

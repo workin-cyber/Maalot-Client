@@ -1,0 +1,71 @@
+.all{
+    text-align: center;
+}
+
+.Div{
+    margin: auto;
+    margin-top: 20px;
+}
+
+.internal{
+    padding: 20px;
+}
+
+.img{
+background-image: url("./Resuil\ vector.svg");
+width: 299.82px;
+height: 316px;
+margin: auto;
+}
+
+.button{
+width: 383px;
+display: block;
+margin: auto;
+margin-top: 20px;
+margin-bottom: 20px;
+    
+}
+
+.imgDiv{
+    display: flex;
+    width: 100px;
+    height: 40px;
+    margin: auto;
+}
+
+.smartphon{
+    flex: 1;
+    background-image: url("./SmartPhon.svg");
+    background-repeat: no-repeat;
+}
+
+.line{
+    flex: 1;
+    margin: 10px;
+    background-image: url("./Line\ 237\ \(Stroke\).svg");
+    background-repeat: no-repeat;
+}
+
+.person{
+    flex: 1;
+    background-image: url("./Person.svg");
+    background-repeat: no-repeat;
+}
+
+.h5{
+    margin: 5px;
+    font-weight: 500;
+}
+
+.cm{
+    margin-top: 10px;
+ font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 20px;
+
+color: #3D2072;
+
+}

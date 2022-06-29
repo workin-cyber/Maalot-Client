@@ -1,0 +1,40 @@
+.passInput {
+    position: relative;
+    border: 1px solid gray;
+    margin: auto;
+    border-radius: 12px;
+    padding: 6px;
+    max-width: 328px;
+    z-index: 1;
+    height: 40px;
+}
+
+.inputArea {
+    width: 320px;
+    padding: 8px;
+    border: none;
+    border-radius: 12px;
+}
+
+.inputArea:focus {
+    border: none;
+    outline: none;
+}
+
+.labelStyle {
+    font-style: italic;
+    position: absolute;
+    top: -10px;
+    left: 15px;
+    background-color: white;
+    font-size: 12px;
+}
+
+.passBtn {
+    background-color: white;
+    border: none;
+    position: absolute;
+    right: 10px;
+    font-size: 20px;
+top: 10px;
+}

@@ -1,0 +1,61 @@
+.mainBtnDash {
+    margin-top: 20px;
+    width: 188px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    background-color: #F39C12;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 80px;
+    gap: 13px;
+    padding-top: 13px;
+    margin-left: 30px;
+
+    /* padding-right: 10px; */
+
+}
+
+
+.mainPicDash {
+    background-image: url('../adminImg/dash.png');
+    width: 22px;
+    height: 22px;
+    background-size: contain;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.mainPicClass {
+    background-image: url('../adminImg/class.png');
+    width: 22px;
+    height: 22px;
+    background-size: contain;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.mainBtnClass {
+    margin-top: 20px;
+
+    margin-right: 20px;
+    width: 188px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    background-color: #FEEFEC;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 80px;
+    gap: 13px;
+    margin-left: 30px;
+    padding-top: 13px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

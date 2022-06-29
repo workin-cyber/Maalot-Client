@@ -1,0 +1,33 @@
+.textAreaInputDiv {
+    position: relative;
+    border: 1px solid gray;
+    margin: auto;
+    border-radius: 12px;
+    padding: 6px;
+    max-width: 328px;
+    z-index: 1;
+    height: 80px;
+}
+
+.labelStyleTextArea {
+    font-style: italic;
+    position: absolute;
+    top: -10px;
+    left: 15px;
+    background-color: white;
+    font-size: 12px;
+}
+
+.textAreaInput {
+    width: 310px;
+    padding: 8px;
+    height: 70px;
+    border: none;
+    border-radius: 12px;
+}
+textarea {
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+}

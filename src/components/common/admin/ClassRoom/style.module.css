@@ -1,0 +1,59 @@
+.bodyDiv{
+margin-top: 50px;
+
+
+}
+.arrDiv{
+    width: 900px;
+    height: 60px;
+}
+.mainDiv {
+    max-width: 1000px;
+    height: 70px;
+    background-color: #7D56A5;
+    margin: auto;
+    border-radius: 10px;
+    box-sizing: border-box;
+    z-index: 1;
+    transform: rotate(-0.55deg);
+    border: 2px solid black;
+    flex-grow: 1;
+    font-weight: 600;
+}
+
+.allFlexItem {
+    flex: 1;
+    text-align: center;
+}
+
+.prpDiv {
+    padding-top: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 2px solid black;
+    z-index: 0;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    background-color: #FEEFEC;
+    width: 1000px;
+    transform: rotate(0.55deg);
+    height: 67px;
+    box-sizing: border-box;
+
+}
+
+.editDiv {
+    display: flex;
+    justify-content: space-between;
+    width: 70px;
+
+}
+
+.Pen {
+    border: none;
+    outline: none;
+    background-color: #FEEFEC;
+    font-size: 17px;
+    padding-bottom: 18px;
+}

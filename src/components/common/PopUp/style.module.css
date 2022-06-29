@@ -1,0 +1,55 @@
+.div{
+    padding: 5px;
+    text-align: center;
+    background-color: white;
+}
+
+.question{
+    font-weight: 300;
+}
+
+.buttons{
+    margin: 5px;
+display: flex;
+justify-content:space-around;
+}
+
+.noClicked{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+align-items: center;
+padding: 16px 33px;
+
+width: 140px;
+height: 48px;
+
+background: #FFFFFF;
+border: 2px solid #252525;
+box-shadow: 2px 2px 0px #D35400;
+border-radius: 80px;
+
+cursor: pointer;
+}
+
+.yesClicked{
+    box-sizing: border-box;
+
+/* Auto layout */
+align-items: center;
+padding: 16px 33px;
+/* gap: 8px; */
+
+width: 140px;
+height: 48px;
+
+background: #F39C12;
+border: 2px solid #252525;
+box-shadow: 2px 2px 0px #D35400;
+border-radius: 80px;
+
+/* Inside auto layout */
+cursor: pointer;
+}
+

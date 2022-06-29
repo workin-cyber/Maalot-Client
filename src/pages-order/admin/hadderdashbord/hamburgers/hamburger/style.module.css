@@ -1,0 +1,28 @@
+.mainDiv {
+    height: 100vh;
+    background-color: #7D56A5;
+    width: 247px;
+    position: absolute;
+}
+
+.picHolder {
+    display: flex;
+    align-content: center;
+    /* margin-left: 20px; */
+    margin: auto;
+    padding-top: 20px;
+    width: 164px;
+}
+
+.firstImg {
+    background-image: url('../adminImg/image1.svg');
+    width: 72px;
+    height: 64px;
+}
+
+.secendImg {
+    margin-top: 20px;
+    background-image: url('../adminImg/image2.svg');
+    width: 92px;
+    height: 24px;
+}

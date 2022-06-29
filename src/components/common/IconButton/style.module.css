@@ -1,0 +1,56 @@
+.bacgroundDiv{
+    background-color: #7D56A5;
+    width: 183.5px;
+    height: 100px;
+    box-sizing: border-box;
+    transform: matrix(1, -0.06, -0.08, -1, 0, 0);
+    border: 1.5px solid #252525;
+    border-radius: 20px;
+    
+    position: relative;
+    left: 500px;
+    /* position: absolute;
+    Top:667.61px;
+    Left:217px; */
+
+}
+.IconButton{
+    box-sizing: border-box;
+    background-color: white;
+    width: 183.5px;
+    height: 100px;
+    transform: matrix(1, -0.07, -0.07, -1, -2, 0);
+    border: 1.5px solid #252525;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+    cursor: pointer;
+}
+.icon{
+    font-size: 30px;
+    color: #7D56A5;
+    Width:24px;
+    Height:21.75px;
+margin-bottom: 10px;
+}
+.IconButton:focus{
+    background-color: #F39C12;
+    color: white;
+}
+.IconButton:focus .icon{
+    color: white;
+}
+.left{
+    transform: rotate(3.8deg);
+}
+.iconLeft{
+    transform: rotate(-3.8deg);
+}
