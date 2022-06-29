@@ -6,11 +6,8 @@ function DashboardButton(props) {
     return <>
         <button className={isClicked ? `${styles.active}
          ${styles.buttonStyle}` : `${styles.notActive}
-          ${styles.buttonStyle}`} onClick={() => {
-                console.log("blabla")
-                return props.onClick()
-            }}>
-
+          ${styles.buttonStyle}`} onClick={props.onClick}>
+               
             <div className={styles.textDiv}><div>
                 <span className={isClicked ? `${styles.activeButton} ${styles.buttonText}` :
                     `${styles.notActiveButton} ${styles.buttonText}`}
