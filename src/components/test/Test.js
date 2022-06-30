@@ -1,9 +1,9 @@
 
 
-import Pushup1B from "../../pages-order/trainReading/Pushup1B"
+import Pushup1A from "../../pages-order/trainReading/Pushup1A"
 function Test(){
     return <>
-    <Pushup1B/>
+    <Pushup1A/>
     </>
 }
 

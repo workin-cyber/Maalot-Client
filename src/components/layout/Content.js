@@ -7,10 +7,10 @@ import { SignUp, } from "../../pages-order/signup/index"
 import { } from "../../pages-order/admin"
 import { } from "../../pages-order/firstAssessement"
 import { } from "../../pages-order/freeStyle"
-import { } from "../../pages-order/levelExercise/index"
+import { LevelExercise, ReadingRate, ResultSummaryL } from "../../pages-order/levelExercise/index"
 import { } from "../../pages-order/setting"
 import { } from "../../pages-order/trainFocus"
-import { BookDetails } from "../../pages-order/trainReading"
+import { BookDetails, Pushup1A, Pushup1B, Pushup4B, Questions } from "../../pages-order/trainReading"
 import Instructions from "../../pages-order/trainReading/Instructions"
 
 function Content() {
@@ -41,7 +41,9 @@ function Content() {
                 </Route>
 
                 <Route path="level-exercise">
-                    <Route index element={<>levelEcecise</>} />
+                    <Route index element={<LevelExercise />} />
+                    <Route path="ReadingRate" element={<ReadingRate />} />
+                    <Route path="ResultSummaryL" element={<ResultSummaryL />} />
                 </Route>
 
                 <Route path="setting">
@@ -50,7 +52,11 @@ function Content() {
 
                 <Route path="trainReading">
                     <Route index element={<BookDetails/>} />
-                    <Route path="Instructions" element={<Instructions/>}/>
+                    {/* <Route path="Instructions" element={<Instructions/>}/> */}
+                    <Route path="Pushup1A" element={<Pushup1A/>}/>
+                    <Route path="Pushup1B" element={<Pushup1B/>}/>
+                    <Route path="Questions" element={<Questions/>}/>
+                    <Route path="Pushup4B" element={<Pushup4B/>}/>
                 </Route>
 
 

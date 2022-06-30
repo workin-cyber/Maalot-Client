@@ -9,7 +9,7 @@ import { useNavigate } from 'react-router-dom'
 
 // Creator : Team 4 - yaakov goldman
 
-function Timer({ clockTime, setSeconds,href }) {
+function Timer({ clockTime, setSeconds,href,state }) {
   const [timeMove, setTimeMove] = useState(true);
   const navigate = useNavigate()
   // const [corrent, setCorrent] = (0);
@@ -20,7 +20,7 @@ function Timer({ clockTime, setSeconds,href }) {
 
 function changePage(numSecond){
   if(!numSecond)
-  navigate(href)
+  navigate(href,{state:{data:state}})
 }
 
   function printTime(time) {
@@ -39,7 +39,7 @@ function changePage(numSecond){
       {/* <div className={styles.watch}> */}
       <CountdownCircleTimer
         isPlaying={timeMove}
-        duration={180}
+        duration={8}
         colors={"purple"}
         rotation={"counterclockwise"}
         strokeLinecap={"square"}
