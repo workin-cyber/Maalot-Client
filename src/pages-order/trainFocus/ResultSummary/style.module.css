@@ -4,7 +4,7 @@
 
 .Div{
     margin: auto;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .internal{
@@ -16,13 +16,14 @@ background-image: url("./Resuil\ vector.svg");
 width: 299.82px;
 height: 316px;
 margin: auto;
+margin-top: 60px;
 }
 
 .button{
 width: 383px;
 display: block;
 margin: auto;
-margin-top: 20px;
+margin-top: 80px;
 margin-bottom: 20px;
     
 }

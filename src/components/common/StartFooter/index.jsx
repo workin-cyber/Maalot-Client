@@ -4,11 +4,11 @@ import cone from "../StartFooter/Vector.svg";
 import headphones from "../StartFooter/headphones.svg";
 import camera from "../StartFooter/camera.svg";
 
-// Creator : Team 2 - eliezer-kott
+// Creator : Team 2 - Eliezer-Kott
 
 function StartFooter({ title, icon, text, onclick }) {
   return (
-    <div>
+    <div className={styles.bigDiv}>
       <div className={styles.aroundButton}>
         {<StartButton onclick={onclick} />}
       </div>

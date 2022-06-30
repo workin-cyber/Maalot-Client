@@ -17,7 +17,8 @@ function Button_w140_w383_Link(props) {
 
         {props.href ?
             <Link
-                to={`${props.href}`}>
+                to={`${props.href}`}
+                state={props.state}>
                 <div className={`${styles.Button}  ${props.white ? styles.White : ""} ${props.small ? styles.small : ""}`}>
                     <span className={styles.text}>{props.text}</span>
                 </div>
