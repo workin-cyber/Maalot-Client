@@ -26,7 +26,7 @@ function Content(props) {
 
             {/* student */}
             <Route path="/student" element={<><Outlet /></>}>
-                <Route path="dashboard" element={<Dashboard setIsHeader={props.setIsHeader} />} />
+                <Route path="dashboard" element={<Dashboard />} />
 
                 <Route path="train-focus">
                     <Route index element={<ConvergesExercise />} />
