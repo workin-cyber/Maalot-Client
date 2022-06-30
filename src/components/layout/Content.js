@@ -1,17 +1,20 @@
 
 import { Outlet, Route, Routes } from "react-router-dom"
-import Context from "../../context";
+// import Context from "../../context";
 import Dashboard from "../../pages-order/Dashboard"
 import { SignUp, } from "../../pages-order/signup/index"
 import { } from "../../pages-order/admin"
-import { } from "../../pages-order/firstAssessement"
+import { ResultSummary } from "../../pages-order/firstAssessement"
 import { } from "../../pages-order/freeStyle"
 import { } from "../../pages-order/levelExercise/index"
 import { } from "../../pages-order/setting"
-import { } from "../../pages-order/trainFocus"
-import { } from "../../pages-order/trainReading"
+import { ConvergesExercise } from "../../pages-order/trainFocus"
+import StartRound from "../../pages-order/trainFocus/ConvergesExercise/StartRound"
+import Stop from "../../pages-order/trainFocus/ConvergesExercise/Stop"
+import ResultSummaryTrainFocus from "../../pages-order/trainFocus/ResultSummary"
+import Test from "../test/Test"
 
-function Content() {
+function Content(props) {
     return <>
         <Routes>
 
@@ -22,12 +25,16 @@ function Content() {
             </Route>
 
             {/* student */}
-            <Route path="/student" element={<><h1> protected - route - student  </h1><Outlet /></>}>
-                <Route path="dashboard" element={<Dashboard />} />
+            <Route path="/student" element={<><Outlet /></>}>
+                <Route path="dashboard" element={<Dashboard setIsHeader={props.setIsHeader} />} />
 
                 <Route path="train-focus">
-                    <Route index element={<>focus-train</>} />
-                    <Route path="exercise" element={<>exercise</>} />
+                    <Route index element={<ConvergesExercise />} />
+                    <Route path="start-round" element={<StartRound />} />
+                    <Route path="start-round/stop" element={<Stop />} />
+                    <Route path="result-summary" element={<ResultSummaryTrainFocus />} />
+                    {/* <Route path="exercise" element={< />} /> */}
+
                 </Route>
 
                 <Route path="first-assessement">

@@ -1,0 +1,34 @@
+.headerUser{
+    box-sizing: border-box;
+    text-align: center;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    background-color: #FFFFFF;;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.nav{
+    background-image:url("./Navigation.svg") ;
+    Width:40px;
+Height:40px;
+cursor: pointer;
+}
+
+.buttonImg{
+    font-size: 44.5px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    border: none;
+    color:#55575A;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}

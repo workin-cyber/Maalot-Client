@@ -25,11 +25,11 @@ function PopUp(props) {
     const [isClicked, setIsClicked] = useState("")
 
     return <DivCompicated classAll={props.classAll ?? ""} style={props.styleInsternal} isLeft={true} classInternal={`${styles.div} ${props.classInternal ?? ""}`}>
-        <h1 className={`${styles.title} ${props.classTitle ?? ""}`}>{props.title}</h1>
-        <h2 className={`${styles.question} ${props.classQuestion ?? ""}`}>{props.question}?</h2>
+        <h2 className={`${styles.title} ${props.classTitle ?? ""}`}>{props.title}</h2>
+        <h3 className={`${styles.question} ${props.classQuestion ?? ""}`}>{props.question}?</h3>
         <div className={`${styles.buttons} ${props.classButtons}`}>
-            <button className={`${isClicked == "yes" ? styles.yesClicked : styles.noClicked} ${props.classButtonYes ?? ""}`} value={true} onClick={(e) => { setIsClicked("yes"); if (props.yesFn) props.yesFn(e) }}>Yes</button>
-            <button className={`${isClicked == "no" ? styles.yesClicked : styles.noClicked} ${props.classButtonYes ?? ""}`} value={false} onClick={(e) => { setIsClicked("no"); if (props.noFn) props.noFn(e) }}>No</button>
+            <button className={`${isClicked == "yes" ? styles.yesClicked : styles.noClicked} ${props.classButtonYes ?? ""}`} value={true} onClick={(e) => { setIsClicked("yes"); if (props.yesFn) props.yesFn(e) }} id={props.id}>Yes</button>
+            <button className={`${isClicked == "no" ? styles.yesClicked : styles.noClicked} ${props.classButtonYes ?? ""}`} value={false} onClick={(e) => { setIsClicked("no"); if (props.noFn) props.noFn(e) }} id={props.id}>No</button>
         </div>
     </DivCompicated >
 }
