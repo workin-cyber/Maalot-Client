@@ -12,7 +12,7 @@ function Questions() {
   const readVal = (e, index) => (answers[index] = e.target.value);
 
   const navigatePage = () => {
-    data.arrAnswer.push({type: (data.arrAnswer.length)?"p":"l",answers});
+    data.arrAnswer.push({type: (data.arrAnswer.length<4)?"p":"l",answers});
     navigate((data.arrAnswer.length<5)?"/student/trainreading/Pushup1A":"/student/level-exercise/ResultSummaryL", { state: { data } });
   };
 
