@@ -1,0 +1,9 @@
+.img{
+    background-image: url("./Graphics.svg");
+    width: 273px;
+    height: 272px;
+}
+
+.divBottom{
+    position: relative;
+}

@@ -4,17 +4,25 @@ import { useState } from "react";
 import { CountdownCircleTimer } from "react-countdown-circle-timer";
 import SpeedLimit from "../SpeedLimit";
 import TimerButton from "../TimerButton/index";
-import Progressbar from "../Progressbar";
+// import Progressbar from "../Progressbar";
+import { useNavigate } from 'react-router-dom'
 
 // Creator : Team 4 - yaakov goldman
 
-function Timer({ clockTime, setSeconds }) {
+function Timer({ clockTime, setSeconds, href, state }) {
   const [timeMove, setTimeMove] = useState(true);
+  const navigate = useNavigate()
   // const [corrent, setCorrent] = (0);
 
   function changeMoveTime() {
     setTimeMove(!timeMove);
   }
+
+  function changePage(numSecond) {
+    if (!numSecond)
+      navigate(href, { state: { data: state } })
+  }
+
   function printTime(time) {
     const minute = Math.floor(time / 60),
       numberSecond = time % 60;
@@ -39,6 +47,7 @@ function Timer({ clockTime, setSeconds }) {
       >
         {({ remainingTime }) => {
           setSeconds(remainingTime);
+          changePage(remainingTime)
           return (
             <div className={styles.insideTimer}>
               {clockTime ? (

@@ -1,6 +1,7 @@
 /* כפתור צג (מד) */
 .screen{
     /* position: absolute; */
+margin: auto;
 font-size: 10px;
 box-sizing: border-box;
 display: flex;

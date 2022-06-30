@@ -1,0 +1,16 @@
+.btn{
+    margin-top: 15px;
+    margin-inline:15px;
+}
+.bigDiv{
+    width: 382px;
+    margin: auto;
+    text-align: center;
+    font-size: 15px;
+}
+.div{
+    padding: 30px;
+}
+.divAll{
+    margin-top: 40px;
+}

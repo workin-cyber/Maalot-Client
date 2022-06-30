@@ -3,11 +3,9 @@
   height: 50vh;
   width:90vw ;
   left: 5vw;
-  /* margin: auto; */
   bottom: 24px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-
 
